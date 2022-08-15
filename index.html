@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unes - Página principal</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(./imagens/fundo2.png);
+            max-width: 800px;
+            margin: auto;
+        }
+
+        header {
+            margin:20px 0 20px 0;
+        }
+        
+        main {
+           margin-left: 10px;
+        }
+
+        main > img {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        nav {
+            display: inline-block;
+            float: right;
+            margin: 30px 10px 0 0px;
+            
+        }
+        nav > a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            color: white;       
+            background-color:lightslategray;
+            border: 10px;
+            padding: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        picture.principal {
+            padding-top: 20px;
+        }
+
+        footer {
+            padding-top: 100px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <img src="imagens/logo.png" alt="Unes Faculdade">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="quem-somos.html">Quem somos</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
+    <main>
+        <picture class="principal">
+            <source media="(min-width:785px)" srcset="imagens/capa2.png">
+            <source media="(min-width:750px )" srcset="imagens/capaM.png">
+            <source media="(min-width:600px)" srcset="imagens/capaMedia.png">
+            <img src="imagens/capa2.png" alt="unes">
+        </picture>
+
+        <div>
+            <h2>Sobre a Universidade</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        Todos direitos reservados | Unes Universidade
+    </footer>
+</body>
+</html>

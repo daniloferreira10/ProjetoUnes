@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body {
+            background-image: url(./imagens/fundo2.png);
+            max-width: 800px;
+            margin: auto;
+        }
+        
+        header {
+            margin:20px 0 20px 0;
+        }
+        
+        main {
+           margin-left: 10px;
+        }
+
+        main > img {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        nav {
+            display: inline-block;
+            float: right;
+            margin: 30px 10px 0 0px;
+            
+        }
+        nav > a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            color: white;       
+            background-color:lightslategray;
+            border: 10px;
+            padding: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        picture.principal {
+            padding-top: 20px;
+        }
+
+        footer {
+            padding-top: 100px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+        <header>
+            <img src="imagens/logo.png" alt="Unes Faculdade">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="quem-somos.html">Quem somos</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
+    <main>
+        <div>
+            <h2>Entre em Contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus a voluptatum vero quae quis quibusdam modi, accusamus commodi repellat, porro quam eaque labore nisi at dicta tempora rem nesciunt omnis?</p>
+            <hr>
+        </div>
+
+        <form action="#">
+            <div>
+                <label for="email">E-mail:</label> <br>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="assunto">Assunto:</label> <br>
+                <input type="text" id="assunto">
+            </div>
+            <div>
+                <label for="descrição">Descrição:</label>
+                <br>
+                <textarea name="descrição" id="descrição" cols="50" rows="10"></textarea>
+            </div>
+        </form>
+        
+    </main>
+    <footer>Todos direitos reservados | Unes Universidade</footer>
+    
+</body>
+</html>
